@@ -1,0 +1,70 @@
+gonvert
+------------------------------------------
+gonvert is a conversion utility that allows conversion between many 
+units like CGS, Ancient, Imperial with many categories like length, 
+mass, numbers, etc. All units converted values shown at once as you 
+type. Easy to add/change your own units. Written in Python, pygtk, 
+and libglade.
+
+Runtime requirements:
+  cygwin-1.5.18-1
+  pygtk2-2.6.3-1
+  python-2.4.1-1
+
+Canonical homepage:
+  http://unihedron.com/projects/gonvert/index.php
+
+Canonical download:
+  http://unihedron.com/projects/gonvert/downloads/
+
+------------------------------------
+
+Build instructions:
+  unpack gonvert-0.2.14-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./gonvert-0.2.14-1.sh all
+
+This will create:
+  /usr/src/gonvert-0.2.14-1-src.tar.bz2
+  /usr/src/gonvert-0.2.14-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gonvert
+  /usr/share/doc/Cygwin/gonvert-0.2.14.README
+  /usr/share/doc/gonvert-0.2.14/CHANGELOG
+  /usr/share/doc/gonvert-0.2.14/COPYING
+  /usr/share/doc/gonvert-0.2.14/FAQ
+  /usr/share/doc/gonvert-0.2.14/INSTALL
+  /usr/share/doc/gonvert-0.2.14/README
+  /usr/share/doc/gonvert-0.2.14/THANKS
+  /usr/share/doc/gonvert-0.2.14/TODO
+  /usr/share/gnome/apps/Utilities/gonvert.desktop
+  /usr/share/gonvert/gonvert.glade
+  /usr/share/locale/pl/LC_MESSAGES/gonvert.mo
+  /usr/share/pixmaps/gonvert.png
+  /usr/share/pixmaps/gonvert_picture.png
+
+------------------
+
+Port Notes:
+
+----- version 0.2.14-1 -----
+Version bump.
+
+----- version 0.2.12-1 -----
+Upstream version bump.
+
+----- version 0.2.11-1 -----
+Sync with upstream version; see CHANGELOG for upstream changes.
+
+----- version 0.2.05-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
