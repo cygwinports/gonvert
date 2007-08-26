@@ -1,0 +1,12 @@
+DESCRIPTION="GNOME unit converter"
+HOMEPAGE="http://unihedron.com/projects/gonvert/index.php"
+SRC_URI="http://unihedron.com/projects/gonvert/downloads/${P}.tar.gz"
+
+src_compile() { :; }
+src_test() { :; }
+
+src_install() {
+	cd ${S}
+	USE_DESTDIR=0 cyginstall
+	mv ${D}/usr/share/doc/{${PN},${P}}
+}
