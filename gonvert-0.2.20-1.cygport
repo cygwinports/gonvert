@@ -1,4 +1,4 @@
-DESCRIPTION="GNOME unit converter"
+DESCRIPTION="GTK+ unit converter"
 HOMEPAGE="http://unihedron.com/projects/gonvert/index.php"
 SRC_URI="http://unihedron.com/projects/gonvert/downloads/${P}.tar.gz"
 
@@ -8,5 +8,8 @@ src_test() { :; }
 src_install() {
 	cd ${S}
 	USE_DESTDIR=0 cyginstall
-	mv ${D}/usr/share/doc/{${PN},${P}}
+	rm -f ${D}/usr/share/doc/${PN}/{INSTALL,*~}
+
+	dodir /usr/share/applications
+	mv ${D}/usr/share/gnome/apps/Utilities/gonvert.desktop ${D}/usr/share/applications/
 }

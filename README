@@ -7,9 +7,9 @@ type. Easy to add/change your own units. Written in Python, pygtk,
 and libglade.
 
 Runtime requirements:
-  python-2.5.1-3
-  python-gobject2-2.12.3-2
-  python-gtk2-2.10.6-1
+  python-2.5.4-10
+  python-gobject2-2.16.1-10
+  python-gtk2-2.14.1-1
 
 Canonical homepage:
   http://unihedron.com/projects/gonvert/index.php
@@ -20,30 +20,28 @@ Canonical download:
 ------------------------------------
 
 Build instructions:
-  unpack gonvert-0.2.19-1-src.tar.bz2
+  unpack gonvert-0.2.20-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gonvert-0.2.19-1.cygport all
+  cygport ./gonvert-0.2.20-1.cygport all
 
 This will create:
-  /usr/src/gonvert-0.2.19-1-src.tar.bz2
-  /usr/src/gonvert-0.2.19-1.tar.bz2
+  /usr/src/gonvert-0.2.20-1-src.tar.bz2
+  /usr/src/gonvert-0.2.20-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/gonvert
-  /usr/share/doc/Cygwin/gonvert-0.2.19.README
-  /usr/share/doc/gonvert-0.2.19/CHANGELOG
-  /usr/share/doc/gonvert-0.2.19/COPYING
-  /usr/share/doc/gonvert-0.2.19/FAQ
-  /usr/share/doc/gonvert-0.2.19/INSTALL
-  /usr/share/doc/gonvert-0.2.19/README
-  /usr/share/doc/gonvert-0.2.19/THANKS
-  /usr/share/doc/gonvert-0.2.19/TODO
-  /usr/share/gnome/apps/Utilities/gonvert.desktop
+  /usr/share/applications/gonvert.desktop
+  /usr/share/doc/gonvert/CHANGELOG
+  /usr/share/doc/gonvert/COPYING
+  /usr/share/doc/gonvert/FAQ
+  /usr/share/doc/gonvert/README
+  /usr/share/doc/gonvert/THANKS
+  /usr/share/doc/gonvert/TODO
   /usr/share/gonvert/gonvert.glade
   /usr/share/pixmaps/gonvert-icon_alternative.png
   /usr/share/pixmaps/gonvert.png
@@ -52,20 +50,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.2.19-1 -----
-Version bump.
-
------ version 0.2.14-1 -----
-Version bump.
-
------ version 0.2.12-1 -----
-Upstream version bump.
-
------ version 0.2.11-1 -----
-Sync with upstream version; see CHANGELOG for upstream changes.
-
------ version 0.2.05-1 -----
-Initial release for Cygwin.
+----- version 0.2.20-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
