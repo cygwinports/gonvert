@@ -8,8 +8,8 @@ and libglade.
 
 Runtime requirements:
   python-2.5.4-10
-  python-gobject2-2.16.1-10
-  python-gtk2-2.14.1-1
+  python-gobject2.0-2.18.0-1
+  python-gtk2.0-2.16.0-1
 
 Canonical homepage:
   http://unihedron.com/projects/gonvert/index.php
@@ -20,35 +20,22 @@ Canonical download:
 ------------------------------------
 
 Build instructions:
-  unpack gonvert-0.2.20-1-src.tar.bz2
+  unpack gonvert-0.2.22-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gonvert-0.2.20-1.cygport all
+  cygport ./gonvert-0.2.22-1.cygport all
 
 This will create:
-  /usr/src/gonvert-0.2.20-1-src.tar.bz2
-  /usr/src/gonvert-0.2.20-1.tar.bz2
+  /usr/src/gonvert-0.2.22-1-src.tar.bz2
+  /usr/src/gonvert-0.2.22-1.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/gonvert
-  /usr/share/applications/gonvert.desktop
-  /usr/share/doc/gonvert/CHANGELOG
-  /usr/share/doc/gonvert/COPYING
-  /usr/share/doc/gonvert/FAQ
-  /usr/share/doc/gonvert/README
-  /usr/share/doc/gonvert/THANKS
-  /usr/share/doc/gonvert/TODO
-  /usr/share/gonvert/gonvert.glade
-  /usr/share/pixmaps/gonvert-icon_alternative.png
-  /usr/share/pixmaps/gonvert.png
-
-------------------
-
 Port Notes:
+
+----- version 0.2.22-1 -----
+Version bump.
 
 ----- version 0.2.20-1 -----
 Initial release for Cygwin 1.7.

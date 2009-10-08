@@ -1,5 +1,5 @@
 category: Math Gnome
-requires: python python-gobject2 python-gtk2
+requires: python python-gobject2.0 python-gtk2.0
 sdesc: "GTK+ units conversion utility"
 ldesc: "A conversion utility that allows conversion between many units 
 like CGS, Ancient, Imperial with many categories like length, mass, 
