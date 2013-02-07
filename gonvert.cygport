@@ -1,4 +1,7 @@
-CATEGORY="Math Gnome"
+NAME="gonvert"
+VERSION=0.2.32
+RELEASE=1
+CATEGORY="Math"
 SUMMARY="GTK+ units conversion utility"
 DESCRIPTION="A conversion utility that allows conversion between many units
 like CGS, Ancient, Imperial with many categories like length, mass,
@@ -12,7 +15,7 @@ src_test() { :; }
 
 src_install() {
 	cd ${S}
-	USE_DESTDIR=0 cyginstall
+	USE_DESTDIR=0 cyginstall docdir=${D}/usr/share/doc
 	rm -f ${D}/usr/share/doc/${PN}/{INSTALL,*~}
 
 	dodir /usr/share/applications
