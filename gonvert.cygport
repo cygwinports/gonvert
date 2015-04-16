@@ -1,5 +1,5 @@
 NAME="gonvert"
-VERSION=0.2.32
+VERSION=0.2.37
 RELEASE=1
 CATEGORY="Math"
 SUMMARY="GTK+ units conversion utility"
@@ -8,7 +8,9 @@ like CGS, Ancient, Imperial with many categories like length, mass,
 numbers, etc. All units converted values shown at once as you type.
 Easy to add/change your own units. Written in Python, pygtk, libglade."
 HOMEPAGE="http://unihedron.com/projects/gonvert/index.php"
-SRC_URI="http://unihedron.com/projects/gonvert/downloads/${P}.tar.gz"
+SRC_URI="http://unihedron.com/projects/gonvert/downloads/gonvert-${VERSION}.tar.gz"
+
+ARCH=noarch
 
 src_compile() { :; }
 src_test() { :; }
