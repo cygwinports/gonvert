@@ -1,5 +1,5 @@
 NAME="gonvert"
-VERSION=0.2.37
+VERSION=0.2.39
 RELEASE=1
 CATEGORY="Math"
 SUMMARY="GTK+ units conversion utility"
